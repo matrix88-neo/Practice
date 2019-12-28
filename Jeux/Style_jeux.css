@@ -1,0 +1,22 @@
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    float: left;
+    width: 25%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;/*Centre le texte dans les éléments de menu*/
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: orangered;
+    background-color: rgb(19, 18, 18);
+    padding: 30px 0;
+}
