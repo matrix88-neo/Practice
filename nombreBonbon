@@ -1,0 +1,13 @@
+Début nombre_de_Bonbon (réel argent , réel prix)
+
+entier nombreBonbon ← 0
+si (argent < 0 OU prix < 0)
+       retourner (vous devez entrer des valeurs positives)
+Sinon
+	si (prix > argent)
+	retourner (vous n'avez pas suffisament d'argent pour acheter un bonbon.)
+	sinon Tant que (nombreBonbon * prix) < argent
+                   nombreBonbon ← nombreBonbon + 1
+              Fin Tant que
+              retourner nombreBonbon
+Fin nombre_de_Bonbon
